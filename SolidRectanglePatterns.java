@@ -1,10 +1,10 @@
-import java.util.*;
-
+import java.util.Scanner;
 
 public class SolidRectanglePatterns {
    public static void main(String args[]) {
-       int n = 5;
-       int m = 4;
+    Scanner sc = new Scanner(System.in);
+       int n = sc.nextInt();
+       int m = sc.nextInt();
        for(int i=0; i<n; i++) {
            for(int j=0; j<m; j++) {
                System.out.print("*");
